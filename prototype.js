@@ -1,36 +1,36 @@
 //ПРОТОТИПНОЕ НАСЛЕДОВАНИЕ
 
-const Hero = function ({ type, hp, mana } = {}) {
-  this.type = type;
-  this.hp = hp;
-  this.mana = mana;
-};
+// const Hero = function ({ type, hp, mana } = {}) {
+//   this.type = type;
+//   this.hp = hp;
+//   this.mana = mana;
+// };
 
-Hero.prototype.changeHp = function (newHp) {
-  this.hp = newHp;
-};
-const myHero = new Hero({
-  type: "warrior",
-  hp: 1640,
-  mana: 500,
-});
+// Hero.prototype.changeHp = function (newHp) {
+//   this.hp = newHp;
+// };
+// const myHero = new Hero({
+//   type: "warrior",
+//   hp: 1640,
+//   mana: 500,
+// });
 
-const myHero1 = new Hero({
-  type: "mag",
-  hp: 940,
-  mana: 900,
-});
+// const myHero1 = new Hero({
+//   type: "mag",
+//   hp: 940,
+//   mana: 900,
+// });
 
-const myHero2 = new Hero({
-  type: "agile",
-  hp: 1140,
-  mana: 700,
-});
-console.log(myHero.__proto__ === Hero.prototype);
-myHero.changeHp(1400);
-console.log(myHero);
-console.log(myHero1);
-console.log(myHero2);
+// const myHero2 = new Hero({
+//   type: "agile",
+//   hp: 1140,
+//   mana: 700,
+// });
+// console.log(myHero.__proto__ === Hero.prototype);
+// myHero.changeHp(1400);
+// console.log(myHero);
+// console.log(myHero1);
+// console.log(myHero2);
 
 // 1. У каждого обьекта есть свойство __proto__
 // 2. В этом свойстве лежит ссылка на его ПРОТОТИП, то есть другой обьект
@@ -41,3 +41,26 @@ console.log(myHero2);
 // 7. Функция вызывается в контексте созданного объекта
 // 8. В свойство this.__proto__ записывается ссылка на обьект Функция.prototype
 // 9. Ссылка на обьект возвращается в место вызова new Фунукция()
+
+// class User {
+//   constructor({ name, email }) {
+//     this.name = name;
+//     this.email = email;
+//   }
+
+//   get email() {
+//     return this.email;
+//   }
+
+//   set email(newEmail) {
+//     this.email = newEmail;
+//   }
+// }
+
+// const mango = new User({
+//   name: "Манго",
+//   email: "mango@mail.com",
+// });
+// console.log(mango.email); // mango@mail.com
+// mango.email = "mango@supermail.com";
+// console.log(mango.email); // mango@supermail.com

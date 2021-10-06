@@ -138,17 +138,30 @@
 // console.log(findMatches([10, 24, 41, 6, 9, 19], 24, 11, 9, 23, 41));
 // console.log(findMatches([63, 11, 8, 29], 4, 7, 16));
 
-const atTheOldToad = {
-  potions: ["Speed potion", "Dragon breath", "Stone skin"],
-  removePotion(potionName) {
-    // Change code below this line
-    const potionIndex = this.potions.indexOf(potionName);
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   removePotion(potionName) {
+//     // Change code below this line
+//     const potionIndex = this.potions.indexOf(potionName);
 
-    this.potions.splice(potionIndex, 1);
-    return this.potions;
-    // Change code above this line
-  },
-};
+//     this.potions.splice(potionIndex, 1);
+//     return this.potions;
+//     // Change code above this line
+//   },
+// };
 
-console.log(atTheOldToad.removePotion("Dragon breath"));
-console.log(atTheOldToad.removePotion("Speed potion"));
+// console.log(atTheOldToad.removePotion("Dragon breath"));
+// console.log(atTheOldToad.removePotion("Speed potion"));
+// function doSomething(a) {
+//   function doSomethingElse(a) {
+//     return a - 1;
+//   }
+//   console.log(doSomethingElse(a * 2));
+//   var b;
+//   console.log(a);
+//   b = a + doSomethingElse(a * 2);
+
+//   console.log(b * 3);
+// }
+
+// console.log(doSomething(2)); // 15
