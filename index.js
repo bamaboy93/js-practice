@@ -1,15 +1,24 @@
-// Замыкания
+// const array = [1, 4, 7, 5, 4, 4, 7, 9, 4, 7, 8, 9];
 
-// function foo() {
-//   let a = 2;
+// const result = array.map((arr) => (arr += 1));
 
-//   function bar() {
-//     console.log(a);
-//   }
+// console.log(result);
 
-//   return bar;
-// }
-
-// const baz = foo();
-
-// baz(); // 2 -- Ого, замыкание только что было раскрыто, мужики!
+// contacts: {
+//     items: {
+//       status: 'success',
+//       code: 200,
+//       data: {
+//         totalDocs: 0,
+//         offset: 0,
+//         limit: 5,
+//         totalPages: 1,
+//         page: 1,
+//         pagingCounter: 1,
+//         hasPrevPage: false,
+//         hasNextPage: false,
+//         prevPage: null,
+//         nextPage: null,
+//         contacts: []
+//       }
+//     },
