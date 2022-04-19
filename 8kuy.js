@@ -145,3 +145,18 @@
 //     1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15,
 //   ])
 // );
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// function betterThanAverage(cP, yP) {
+//   let result = 0;
+//   for (points of cP) {
+//     result += points / cP.length;
+//   }
+
+//     return yP > result
+//     ///
+//     return (
+//       yP > cP.reduce((a, b) => a + b, 0) / cP.length
+//     );
+// }
+
+// console.log(betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75));
