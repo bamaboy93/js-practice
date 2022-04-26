@@ -160,3 +160,52 @@
 // }
 
 // console.log(betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75));
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// function reverseString(str) {
+//   return str.split("").reverse().join("");
+// }
+// console.log(reverseString("hello"));
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Convert number to reversed array of digits
+// Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+
+// Example:
+// 348597 => [7,9,5,8,4,3]
+
+// function digitize(n) {
+//   const number = String(n);
+//   const array = number.split("");
+//   const digit = array.map((arr) => Number(arr));
+//     return digit.reverse();
+//     ///
+//     return String(n).split("").map(Number).reverse();
+// }
+
+// console.log(digitize(35231));
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// function basicOp(operation, value1, value2) {
+//   let result = 0;
+//   switch (operation) {
+//     case "+":
+//       result = value1 + value2;
+//       break;
+
+//     case "-":
+//       result = value1 - value2;
+//       break;
+
+//     case "*":
+//       result = value1 * value2;
+//       break;
+
+//     case "/":
+//       result = value1 / value2;
+//       break;
+
+//     default:
+//       console.log(0);
+//   }
+//   return result;
+// }
+// console.log(basicOp("+", 4, 7));
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
