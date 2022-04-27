@@ -78,3 +78,45 @@ function f(friends) {
 
 // console.log(descendingOrder(123456789));
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Complete the function that accepts a string parameter, and reverses each word in the string. All spaces in the string should be retained.
+
+// Examples
+// "This is an example!" ==> "sihT si na !elpmaxe"
+// "double  spaces"      ==> "elbuod  secaps"
+// function reverseWords(str) {
+//   str = str.split(" ");
+
+//   str = str.map((x) => x.split("").reverse());
+
+//   str = str.map((x) => x.join(""));
+//   return str.join(" ");
+
+//   ///
+//   return str.split("").reverse().join("").split(" ").reverse().join(" ");
+// }
+
+// console.log(reverseWords("The quick brown fox jumps over the lazy dog."));
+// console.log(reverseWords("apple"));
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
+
+// Examples
+// highAndLow("1 2 3 4 5");  // return "5 1"
+// highAndLow("1 2 -3 4 5"); // return "5 -3"
+// highAndLow("1 9 3 4 -5"); // return "9 -5"
+// function highAndLow(numbers) {
+//   const array = numbers.split(" ").map((arr) => Number(arr));
+
+//   const low = Math.min(...array);
+
+//   const high = Math.max(...array);
+
+//   return `${high} ${low}`;
+// ///////
+//   numbers = numbers.split(" ");
+//   return `${Math.max(...numbers)} ${Math.min(...numbers)}`;
+// }
+
+// console.log(highAndLow("1 2 3"));
+// console.log(highAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4"));
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

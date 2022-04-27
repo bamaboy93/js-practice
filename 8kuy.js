@@ -209,3 +209,30 @@
 // }
 // console.log(basicOp("+", 4, 7));
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// function findNeedle(haystack) {
+//   return `found the needle at position ${haystack.indexOf("needle")} `;
+// }
+
+// console.log(
+//   findNeedle([
+//     "3",
+//     "123124234",
+//     undefined,
+//     "needle",
+//     "world",
+//     "hay",
+//     2,
+//     "3",
+//     true,
+//     false,
+//   ])
+// );
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// function abbrevName(name) {
+//   return name
+//     .split(" ")
+//     .map((i) => i[0].toUpperCase())
+//     .join(".");
+// }
+
+// console.log(abbrevName("Sam Harris"));
