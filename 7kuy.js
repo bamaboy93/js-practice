@@ -6,18 +6,18 @@
 
 // friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
 
-function f(friends) {
-  //   let fellas = [];
-  //   for (friend of friends) {
-  //     if (friend.length === 4) {
-  //       fellas.push(friend);
-  //     }
-  //   }
-  //   return fellas;
-  //
-  //     const list = friends.filter((n) => n.length === 4);
-  // //   return list;
-}
+// function f(friends) {
+//   let fellas = [];
+//   for (friend of friends) {
+//     if (friend.length === 4) {
+//       fellas.push(friend);
+//     }
+//   }
+//   return fellas;
+//
+//     const list = friends.filter((n) => n.length === 4);
+// //   return list;
+// }
 
 // console.log(f(["Ryan", "Kieran", "Mark"]));
 // /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -120,3 +120,47 @@ function f(friends) {
 // console.log(highAndLow("1 2 3"));
 // console.log(highAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4"));
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Example:
+
+// Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
+// Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
+
+// function Jaden(s) {
+//   return s
+//     .split(" ")
+//     .map((word) => word[0].toUpperCase() + word.slice(1))
+//     .join(" ");
+// }
+
+// console.log(Jaden("How can mirrors be real if our eyes aren't real"));
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// To be a senior, a member must be at least 55 years old and have a handicap greater than 7. In this croquet club, handicaps range from -2 to +26; the better the player the lower the handicap.
+
+// function openOrSenior(data) {
+//   return data.map((x) => (x[0] >= 55 && x[1] > 7 ? "Senior" : "Open"));
+//   //////
+//   return data.map(([age, handicap]) =>
+//     age > 54 && handicap > 7 ? "Senior" : "Open"
+//   );
+// }
+
+// console.log(
+//   openOrSenior([
+//     [45, 12],
+//     [55, 21],
+//     [19, -2],
+//     [104, 20],
+//   ])
+// );
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function multiply(x, y) {
+  let res = 0
+  if ()
+
+}
+
+console.log(multiply(3, 9));
