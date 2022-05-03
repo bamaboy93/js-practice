@@ -156,11 +156,48 @@
 // );
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
 
-function multiply(x, y) {
-  let res = 0
-  if ()
+// Example: (Input --> Output)
 
-}
+// "Dermatoglyphics" --> true
+// "aba" --> false
+// "moOse" -- > false(ignore letter case)
 
-console.log(multiply(3, 9));
+// function isIsogram(str) {
+//   str = str.toLowerCase();
+//   for (let i = 0; i < str.length; ++i) {
+//     for (let j = i + 1; j < str.length; ++j) {
+//       if (str[i] === str[j]) {
+//         return false;
+//       }
+//     }
+//   }
+//   return true;
+// }
+
+// function isIsogram(str) {
+//   return new Set(str.toUpperCase()).size == str.length;
+// }
+
+// console.log(isIsogram("Dermatoglyphics"));
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits.
+
+// If the function is passed a valid PIN string, return true, else return false.
+
+// Examples (Input --> Output)
+// "1234"   -->  true
+// "12345"  -->  false
+// "a234"   -->  false
+
+// function validatePIN(pin) {
+//   const n = pin.length;
+//   if (n != 4 && n != 6) return false;
+//   for (i of pin) if (i > "9" || i < "0") return false;
+//   return true;
+// }
+
+// console.log(validatePIN("12.0"));
+// console.log(validatePIN("-1234"));
+// console.log(validatePIN("1234"));
